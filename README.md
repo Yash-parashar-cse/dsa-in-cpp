@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0015-3sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0142-linked-list-cycle-ii](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0142-linked-list-cycle-ii) |
 | [0234-palindrome-linked-list](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0234-palindrome-linked-list) |
 ## Stack
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0015-3sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0026-remove-duplicates-from-sorted-array) |
 ## Sorting
 |  |
 | ------- |
