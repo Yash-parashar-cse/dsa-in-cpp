@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0013-roman-to-integer) |
 | [0138-copy-list-with-random-pointer](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0142-linked-list-cycle-ii) |
 ## Array
@@ -57,10 +58,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0014-longest-common-prefix) |
 | [0151-reverse-words-in-a-string](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0151-reverse-words-in-a-string) |
 ## Trie
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0014-longest-common-prefix) |
+## Math
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
