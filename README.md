@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0013-roman-to-integer) |
 | [0138-copy-list-with-random-pointer](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0142-linked-list-cycle-ii) |
+| [0242-valid-anagram](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0242-valid-anagram) |
 ## Array
 |  |
 | ------- |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0015-3sum) |
+| [0242-valid-anagram](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0242-valid-anagram) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -65,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0014-longest-common-prefix) |
 | [0151-reverse-words-in-a-string](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0151-reverse-words-in-a-string) |
+| [0242-valid-anagram](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0242-valid-anagram) |
 ## Trie
 |  |
 | ------- |
