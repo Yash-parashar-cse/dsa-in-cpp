@@ -1,0 +1,16 @@
+class Solution {
+public:
+    int findContentChildren(vector<int>& g, vector<int>& s) {
+        sort(g.begin(), g.end());
+        sort(s.begin(), s.end());
+
+        int studentindex  = 0;
+        int cookieindex = 0;
+
+        while(studentindex < g.size() && cookieindex <  s.size()){
+            if(g[studentindex] <= s[cookieindex]){
+                studentindex++;
+            }cookieindex++;
+        }return studentindex;
+    }
+};
