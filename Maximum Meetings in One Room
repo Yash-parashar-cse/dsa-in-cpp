@@ -1,0 +1,40 @@
+class Solution {
+  public:
+    // creating a data structure to store multiple values..
+    struct Meeting{
+        int start;
+        int finish;
+        int index;
+    };
+    // comparator to compare two values based on finish time and if equal, then it consider the minimum index of the two..
+    static bool cmp(Meeting a, Meeting b){
+        if(a.finish == b.finish){
+            return a.index < b.index;
+            }
+        return a.finish < b.finish;
+    }
+    vector<int> maxMeetings(vector<int> &s, vector<int> &f) {
+        // code here
+        int n = s.size();
+        vector<Meeting> meetings;
+        vector<int> ans;
+        
+        for(int i=0; i<n; i++){
+            meetings.push_back({s[i], f[i], i+1});
+        }
+        sort(meetings.begin(), meetings.end(), cmp);
+        
+        ans.push_back(meetings[0].index);
+        int last_finish = meetings[0].finish;
+        
+        for(int i=1; i<n; i++){
+            if(meetings[i].start > last_finish){
+                ans.push_back(meetings[i].index);
+                last_finish = meetings[i].finish;
+            } 
+        }
+        // sorting to get the answer to be returned..
+        sort(ans.begin(), ans.end());
+        return ans;
+    }
+};
