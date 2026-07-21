@@ -1,0 +1,38 @@
+class Solution {
+  public:
+  
+    struct bag{
+        int value;
+        int weight;
+    };
+    // making a comparator to sort in descending order, as per value per weight.
+    static bool cmp(const bag& val1, const bag &val2){
+        if((double)val1.value/val1.weight > (double)val2.value/val2.weight){
+            return true;
+        }
+        return false;
+    }
+    double fractionalKnapsack(vector<int>& val, vector<int>& wt, int capacity) {
+        // code here
+        vector<bag> bags;
+        for(int i=0; i<val.size(); i++){
+            bags.push_back({val[i], wt[i]});
+        }
+        // sorting as per the value per unit 
+        sort(bags.begin(), bags.end(), cmp);
+        
+        // chossing the weights and values greedily
+        double total = 0;
+        for(int i=0; i<bags.size(); i++){
+            if(bags[i].weight <= capacity){
+                total += bags[i].value;
+                capacity -= bags[i].weight;
+            }
+            else{
+                total += capacity * ((double)bags[i].value/bags[i].weight);
+                break;
+            }
+        }return total;
+        
+    }
+};
