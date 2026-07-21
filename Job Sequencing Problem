@@ -1,0 +1,59 @@
+class Solution {
+  public:
+    struct job{
+        int deadline;
+        int profit;
+    };
+    
+    int find(int x, vector<int>& slots){
+        if(slots[x] == x){
+            return x;
+            }
+        return slots[x] = find(slots[x], slots);
+    }
+    vector<int> jobSequencing(vector<int> &deadline, vector<int> &profit) {
+        // code here
+        int max_deadline = 0;
+        vector<job> jobs;
+        int count = 0;;
+        int max_profit = 0;
+        vector<int> ans;
+        
+        for(int i=0; i<deadline.size(); i++){
+            jobs.push_back({deadline[i], profit[i]});
+        }
+        
+        sort(jobs.begin(), jobs.end(), [](job a, job b){
+            return a.profit > b.profit;
+        });
+        
+        for(int i=0; i<deadline.size(); i++){
+            if(deadline[i] > max_deadline){
+                max_deadline = deadline[i];
+            }
+        }
+        
+        vector<int> slots(max_deadline+1);
+        for(int i=0; i<=max_deadline; i++){
+            slots[i] = i;
+        }
+        
+        for(int i=0; i<jobs.size(); i++){
+            int d = min(jobs[i].deadline, max_deadline);
+            int available_slot = find(d, slots);
+            
+            if(available_slot > 0){
+                count++;
+                max_profit += jobs[i].profit;
+                
+                slots[available_slot] = find(available_slot-1, slots);
+            }
+        }
+        ans.push_back(count);
+        ans.push_back(max_profit);
+        
+        return ans;
+        
+        
+    }
+};
