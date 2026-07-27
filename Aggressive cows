@@ -1,0 +1,36 @@
+class Solution {
+  public:
+    
+    bool isPossible(vector<int>& arr, int k, int min_allowed){
+        int cows = 1;
+        int last_pos = arr[0];
+        
+        for(int i=1; i<arr.size(); i++){
+            if(arr[i]-last_pos  >= min_allowed){
+                cows++;
+                last_pos = arr[i];
+            }
+            if(cows == k) return true;
+        }return false;
+    }
+    
+    int aggressiveCows(vector<int> &arr, int k) {
+        // code here
+        sort(arr.begin(), arr.end());
+        int start = 1;
+        int end = arr[arr.size()-1];
+        int ans = -1;
+        
+        while(start <= end){
+            int mid = (start + end)/2;
+            
+            if(isPossible(arr, k, mid)){
+                ans = mid;
+                start = mid+1;
+            }
+            else{
+                end = mid- 1;
+            }
+        }return ans;
+    }
+};
