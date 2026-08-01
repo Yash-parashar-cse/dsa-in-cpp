@@ -1,0 +1,34 @@
+class Solution {
+public:
+    void solve(vector<int> &nums, vector<int> &v, vector<vector<int>> &result, vector<bool> &checkUse){
+
+        if(v.size() == nums.size()){
+            result.push_back(v);
+            return;
+        }
+        
+        for(int i=0; i<nums.size(); i++){
+            if(checkUse[i] == true){
+                continue;
+            }
+            v.push_back(nums[i]);
+            checkUse[i] = true;
+
+            solve(nums, v, result, checkUse);
+
+            v.pop_back();
+            checkUse[i] = false;
+        }
+    }
+
+    vector<vector<int>> permute(vector<int>& nums) {
+        vector<int> v;
+        vector<vector<int>> result;
+        vector<bool> checkUse(nums.size(), false);
+
+        solve(nums, v, result, checkUse);
+        return result;
+
+
+    }
+};
