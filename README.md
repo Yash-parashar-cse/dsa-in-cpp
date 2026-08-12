@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0042-trapping-rain-water) |
+| [0051-n-queens](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0051-n-queens) |
 | [0322-coin-change](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0322-coin-change) |
 | [0485-max-consecutive-ones](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0496-next-greater-element-i) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0039-combination-sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0040-combination-sum-ii) |
+| [0051-n-queens](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0051-n-queens) |
 ## Binary Search
 |  |
 | ------- |
@@ -115,4 +117,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0389-find-the-difference](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0389-find-the-difference) |
+## Algorithm X
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
