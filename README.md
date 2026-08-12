@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0142-linked-list-cycle-ii) |
 | [0242-valid-anagram](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0242-valid-anagram) |
+| [0389-find-the-difference](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0389-find-the-difference) |
 | [0496-next-greater-element-i](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0496-next-greater-element-i) |
 ## Array
 |  |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0015-3sum) |
 | [0242-valid-anagram](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0242-valid-anagram) |
+| [0389-find-the-difference](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0389-find-the-difference) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -79,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0242-valid-anagram) |
+| [0389-find-the-difference](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0389-find-the-difference) |
 ## Trie
 |  |
 | ------- |
@@ -108,4 +111,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0004-median-of-two-sorted-arrays) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0389-find-the-difference](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0389-find-the-difference) |
 <!---LeetCode Topics End-->
