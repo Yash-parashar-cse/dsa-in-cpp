@@ -1,0 +1,50 @@
+class Solution {
+  public:
+  
+    void solve(int row, int col, vector<vector<int>>& maze, int n, vector<string> &ans, vector<vector<int>> &visited, string path){
+        // Base case
+        if(row == (n-1) && col==(n-1)){
+            ans.push_back(path);
+            return;
+        }
+        
+        visited[row][col] = 1;
+        
+        // check upwards
+        if(row-1 >=0 && maze[row-1][col] == 1 && visited[row-1][col] == 0){
+            solve(row-1, col, maze, n, ans, visited, path + "U");
+        }
+        
+        // check downwards
+        if(row+1 <n && maze[row+1][col] == 1 && visited[row+1][col] == 0){
+            solve(row+1, col, maze, n, ans, visited, path + "D");
+        }
+        
+        // check right
+        if(col+1 < n && maze[row][col+1] == 1 && visited[row][col+1] == 0){
+            solve(row, col+1, maze, n, ans, visited, path + "R");
+        }
+        
+        // check left
+        if(col-1 >=0 && maze[row][col-1] == 1 && visited[row][col-1] == 0){
+            solve(row, col-1, maze, n, ans, visited, path + "L");
+        }
+        
+        // Backtrack 
+        visited[row][col] = 0;
+    }
+    vector<string> ratInMaze(vector<vector<int>>& maze) {
+        // code here
+        int n = maze.size();
+        vector<string> ans;
+        vector<vector<int>> visited(n, vector<int>(n,0));
+        
+        if(maze[0][0] == 0 || maze[n-1][n-1] == 0){
+            return ans;
+        }
+        
+        solve(0, 0, maze, n, ans, visited, "");
+        sort(ans.begin(), ans.end());
+        return ans;
+    }
+};
