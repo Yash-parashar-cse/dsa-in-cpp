@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0322-coin-change) |
 | [0485-max-consecutive-ones](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0496-next-greater-element-i) |
+| [1929-concatenation-of-array](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/1929-concatenation-of-array) |
 ## Sorting
 |  |
 | ------- |
@@ -121,4 +122,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0051-n-queens) |
+## Simulation
+|  |
+| ------- |
+| [1929-concatenation-of-array](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/1929-concatenation-of-array) |
 <!---LeetCode Topics End-->
