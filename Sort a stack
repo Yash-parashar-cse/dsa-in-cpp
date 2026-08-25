@@ -1,0 +1,30 @@
+class Solution {
+  public:
+  
+    void find_and_insert_at_correct_place(stack<int> &st, int temp){
+        if(st.empty() || st.top() < temp){
+            st.push(temp);
+            return;
+        }
+        
+        int ele = st.top();
+        st.pop();
+        
+        find_and_insert_at_correct_place(st, temp);
+        
+        st.push(ele);
+    }
+    
+    void sortStack(stack<int> &st) {
+        // code here
+        if(st.empty()){
+            return;
+        }
+        int temp = st.top();
+        st.pop();
+        
+        sortStack(st);
+        
+        find_and_insert_at_correct_place(st, temp);
+    }
+};
