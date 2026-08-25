@@ -1,0 +1,57 @@
+class ArrayQueue {
+
+    vector<int> q;
+    int front;
+    int rear;
+    int capacity;
+
+public:
+    ArrayQueue(int size = 100) {
+        capacity = size;
+        q.resize(capacity);
+        front = -1;
+        rear = -1;
+    }
+    
+    void push(int x) {
+        if(rear == capacity - 1){
+            cout<<"we can't push any elemnt in the queue";
+            return;
+        }
+        if(front == -1 && rear == -1){
+            front++;
+            rear++;
+        }
+        else{
+            rear = (rear+1)%capacity;
+        }
+        q[rear] = x;
+    }
+    
+    int pop() {
+        if(front == -1 || front > rear){
+            cout<<"queue underflow";
+            return -1;
+        }
+        int ele = q[front];
+        front ++ ;
+        return ele;
+
+    }
+    
+    int peek() {
+        if(front == -1 || front > rear){
+            cout<<"queue has no element";
+            return -1;
+        }
+        return q[front];
+    }
+    
+    bool isEmpty() {
+        if(front == -1 || front > rear){
+           
+            return true;
+        }
+        return false;
+    }
+};
