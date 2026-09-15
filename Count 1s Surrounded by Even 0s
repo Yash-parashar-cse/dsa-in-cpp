@@ -1,0 +1,48 @@
+class Solution {
+  public:
+    int countSurroundedOnes(vector<vector<int> >& matrix) {
+        // Code here
+        int n = matrix.size();
+        int m = matrix[0].size();
+        
+        vector<int> dir_col;
+        vector<int> dir_row;
+        
+        int ans = 0;
+        
+        
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                
+                if(matrix[i][j] == 1){
+                    dir_row = {i-1, i-1,i-1, i, i, i+1,i+1,i+1};
+                    dir_col = {j-1, j, j+1, j-1, j+1, j-1, j, j+1};
+                    
+                    
+                    int zero_count = 0;
+                    
+                    for(int k=0; k<8; k++){
+                        
+                        
+                        if(dir_row[k] <0 || dir_col[k] <0 || dir_col[k]>=m || dir_row[k] >=n){
+                           
+                            continue;
+                            
+                        }
+                        if(matrix[dir_row[k]][dir_col[k]] ==0 ){
+                            zero_count++;
+                        }
+                        
+                        
+                        
+                    }
+                    if( zero_count > 0 && zero_count %2 == 0){
+                        ans++;
+                    }
+                
+                
+                } 
+            }
+        }return ans;
+    }
+};
