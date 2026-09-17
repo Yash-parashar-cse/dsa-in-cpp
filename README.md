@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0322-coin-change) |
 | [0485-max-consecutive-ones](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0496-next-greater-element-i) |
+| [0713-subarray-product-less-than-k](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0904-fruit-into-baskets) |
 | [1929-concatenation-of-array](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/1929-concatenation-of-array) |
 ## Sorting
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0004-median-of-two-sorted-arrays) |
 | [0209-minimum-size-subarray-sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0209-minimum-size-subarray-sum) |
+| [0713-subarray-product-less-than-k](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0713-subarray-product-less-than-k) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -137,9 +139,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0209-minimum-size-subarray-sum) |
+| [0713-subarray-product-less-than-k](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0904-fruit-into-baskets) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0209-minimum-size-subarray-sum) |
+| [0713-subarray-product-less-than-k](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0713-subarray-product-less-than-k) |
 <!---LeetCode Topics End-->
