@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0242-valid-anagram) |
 | [0389-find-the-difference](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0389-find-the-difference) |
 | [0496-next-greater-element-i](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0496-next-greater-element-i) |
+| [0904-fruit-into-baskets](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0904-fruit-into-baskets) |
 ## Array
 |  |
 | ------- |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0322-coin-change) |
 | [0485-max-consecutive-ones](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0496-next-greater-element-i) |
+| [0904-fruit-into-baskets](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0904-fruit-into-baskets) |
 | [1929-concatenation-of-array](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/1929-concatenation-of-array) |
 ## Sorting
 |  |
@@ -135,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0209-minimum-size-subarray-sum) |
+| [0904-fruit-into-baskets](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0904-fruit-into-baskets) |
 ## Prefix Sum
 |  |
 | ------- |
