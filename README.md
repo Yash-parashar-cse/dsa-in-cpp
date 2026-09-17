@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0042-trapping-rain-water) |
 | [0051-n-queens](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0051-n-queens) |
+| [0209-minimum-size-subarray-sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0209-minimum-size-subarray-sum) |
 | [0322-coin-change](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0322-coin-change) |
 | [0485-max-consecutive-ones](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0496-next-greater-element-i) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0004-median-of-two-sorted-arrays) |
+| [0209-minimum-size-subarray-sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0209-minimum-size-subarray-sum) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -126,4 +128,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1929-concatenation-of-array](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/1929-concatenation-of-array) |
+## Sliding Window
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0209-minimum-size-subarray-sum) |
+## Prefix Sum
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Yash-parashar-cse/dsa-in-cpp/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
