@@ -1,0 +1,25 @@
+class Solution {
+public:
+    string maxSumOfSquares(int num, int sum) {
+        //Greedy approach
+        string ans;
+        if(sum >(num*9)) return "";
+
+        int ninesToAdd = sum / 9;
+        int digitToAdd = sum % 9;
+
+        while(ninesToAdd && ans.length()<num){
+            ans += '9';
+            ninesToAdd--;
+        }
+
+        if(digitToAdd && ans.length()<num){
+            ans += digitToAdd + '0';
+        }
+
+        while(ans.length()<num){
+            ans += '0';
+        }
+        return ans;
+    }
+};
